@@ -1,229 +1,229 @@
-// Base Colours
-$black: #000 !default;
-$white: #fff !default;
-$gray-50: lighten($black, 92%) !default; //ebebeb
-$gray-200: lighten($black, 62.75%) !default; // #a0a0a0
-$gray-300: lighten($black, 56.5%) !default; // #909090
-$gray-400: lighten($black, 50%) !default; // #808080
-$gray-500: lighten($black, 43.75%) !default; // #707070
-$gray-600: lighten($black, 37.5%) !default; // #606060
-$gray-650: lighten($black, 33.3%) !default; // #555555
-$gray-700: lighten($black, 31.25%) !default; // #505050
-$gray-800: lighten($black, 25%) !default; // #404040
-$gray-900: lighten($black, 18.75%) !default; // #303030
+// Base Colors
+$black: var(--black) !default;
+$white: var(--white) !default;
+$gray-50: var(--gray-50) !default;
+$gray-200: var(--gray-200) !default;
+$gray-300: var(--gray-300) !default;
+$gray-400: var(--gray-400) !default;
+$gray-500: var(--gray-500) !default;
+$gray-600: var(--gray-600) !default;
+$gray-650: var(--gray-650) !default;
+$gray-700: var(--gray-700) !default;
+$gray-800: var(--gray-800) !default;
+$gray-900: var(--gray-900) !default;
 
-$cod-gray: #1b1b1b !default;
-$agate-gray: #333333 !default;
-$bright-gray: #3b4151 !default;
-$mako-gray: #41444e !default;
-$waterloo-gray: #7d8492 !default;
-$alto-gray: #d9d9d9 !default;
-$mercury-gray: #e4e4e4 !default;
-$concrete-gray: #e8e8e8 !default;
-$alabaster: #f7f7f7 !default;
-$apple-green: #62a03f !default;
-$green-haze: #009d77 !default;
-$japanese-laurel: #008000 !default;
-$persian-green: #00a0a7 !default;
-$geyser-blue: #d8dde7 !default;
-$dodger-blue: #1391ff !default;
-$endeavour-blue: #005dae !default;
-$scampi-purple: #55a !default;
-$electric-violet: #7300e5 !default;
-$persian-red: #cf3030 !default;
-$mango-tango: #e97500 !default;
+$cod-gray: var(--cod-gray) !default;
+$agate-gray: var(--agate-gray) !default;
+$bright-gray: var(--bright-gray) !default;
+$mako-gray: var(--mako-gray) !default;
+$waterloo-gray: var(--waterloo-gray) !default;
+$alto-gray: var(--alto-gray) !default;
+$mercury-gray: var(--mercury-gray) !default;
+$concrete-gray: var(--concrete-gray) !default;
+$alabaster: var(--alabaster) !default;
+$apple-green: var(--apple-green) !default;
+$green-haze: var(--green-haze) !default;
+$japanese-laurel: var(--japanese-laurel) !default;
+$persian-green: var(--persian-green) !default;
+$geyser-blue: var(--geyser-blue) !default;
+$dodger-blue: var(--dodger-blue) !default;
+$endeavour-blue: var(--endeavour-blue) !default;
+$scampi-purple: var(--scampi-purple) !default;
+$electric-violet: var(--electric-violet) !default;
+$persian-red: var(--persian-red) !default;
+$mango-tango: var(--mango-tango) !default;
 
 // Theme
 
-$color-primary: #89bf04 !default;
-$color-secondary: #9012fe !default;
-$color-info: #4990e2 !default;
-$color-warning: #ff6060 !default;
-$color-danger: #f00 !default;
+$color-primary: var(--color-primary) !default;
+$color-secondary: var(--color-secondary) !default;
+$color-info: var(--color-info) !default;
+$color-warning: var(--color-warning) !default;
+$color-danger: var(--color-danger) !default;
 
-$color-primary-hover: lighten($color-primary, .5%) !default;
+$color-primary-hover: var(--color-primary-hover) !default;
 
-$_color-post: #49cc90 !default;
-$_color-get: #61affe !default;
-$_color-put: #fca130 !default;
-$_color-delete: #f93e3e !default;
-$_color-head: #9012fe !default;
-$_color-patch: #50e3c2 !default;
-$_color-disabled: #ebebeb !default;
-$_color-options: #0d5aa7 !default;
+$_color-post: var(--color-post) !default;
+$_color-get: var(--color-get) !default;
+$_color-put: var(--color-put) !default;
+$_color-delete: var(--color-delete) !default;
+$_color-head: var(--color-head) !default;
+$_color-patch: var(--color-patch) !default;
+$_color-disabled: var(--color-disabled) !default;
+$_color-options: var(--color-options) !default;
 
 // Authorize
 
-$auth-container-border-color: $gray-50 !default;
-$auth-select-all-none-link-font-color: $color-info !default;
+$auth-container-border-color: var(--auth-container-border-color) !default;
+$auth-select-all-none-link-font-color: var(--auth-select-all-none-link-font-color) !default;
 // Buttons
 
-$btn-background-color: transparent !default;
-$btn-border-color: $gray-400 !default;
-$btn-font-color: inherit !default;
-$btn-box-shadow-color: $black !default;
+$btn-background-color: var(--btn-background-color) !default;
+$btn-border-color: var(--btn-border-color) !default;
+$btn-font-color: var(--btn-font-color) !default;
+$btn-box-shadow-color: var(--btn-box-shadow-color) !default;
 
-$btn-authorize-background-color: transparent !default;
-$btn-authorize-border-color: $_color-post !default;
-$btn-authorize-font-color: $_color-post !default;
-$btn-authorize-svg-fill-color: $_color-post !default;
+$btn-authorize-background-color: var(--btn-authorize-background-color) !default;
+$btn-authorize-border-color: var(--btn-authorize-border-color) !default;
+$btn-authorize-font-color: var(--btn-authorize-font-color) !default;
+$btn-authorize-svg-fill-color: var(--btn-authorize-svg-fill-color) !default;
 
-$btn-cancel-background-color: transparent !default;
-$btn-cancel-border-color: $color-warning !default;
-$btn-cancel-font-color: $color-warning !default;
+$btn-cancel-background-color: var(--btn-cancel-background-color) !default;
+$btn-cancel-border-color: var(--btn-cancel-border-color) !default;
+$btn-cancel-font-color: var(--btn-cancel-font-color) !default;
 
-$btn-execute-background-color: transparent !default;
-$btn-execute-border-color: $color-info !default;
-$btn-execute-font-color: $white !default;
-$btn-execute-background-color-alt: $color-info !default;
+$btn-execute-background-color: var(--btn-execute-background-color) !default;
+$btn-execute-border-color: var(--btn-execute-border-color) !default;
+$btn-execute-font-color: var(--btn-execute-font-color) !default;
+$btn-execute-background-color-alt: var(--btn-execute-background-color-alt) !default;
 
-$expand-methods-svg-fill-color: $gray-500 !default;
-$expand-methods-svg-fill-color-hover: $gray-800 !default;
+$expand-methods-svg-fill-color: var(--expand-methods-svg-fill-color) !default;
+$expand-methods-svg-fill-color-hover: var(--expand-methods-svg-fill-color-hover) !default;
 
 // Errors
 
-$errors-wrapper-background-color: $_color-delete !default;
-$errors-wrapper-border-color: $_color-delete !default;
+$errors-wrapper-background-color: var(--errors-wrapper-background-color) !default;
+$errors-wrapper-border-color: var(--errors-wrapper-border-color) !default;
 
-$errors-wrapper-errors-small-font-color: $gray-600 !default;
+$errors-wrapper-errors-small-font-color: var(--errors-wrapper-errors-small-font-color) !default;
 
 // Form
 
-$form-select-background-color: $alabaster !default;
-$form-select-border-color: $mako-gray !default;
-$form-select-box-shadow-color: $black !default;
+$form-select-background-color: var(--form-select-background-color) !default;
+$form-select-border-color: var(--form-select-border-color) !default;
+$form-select-box-shadow-color: var(--form-select-box-shadow-color) !default;
 
-$form-input-border-color: $alto-gray !default;
-$form-input-background-color: $white !default;
+$form-input-border-color: var(--form-input-border-color) !default;
+$form-input-background-color: var(--form-input-background-color) !default;
 
-$form-textarea-background-color: $white !default;
-$form-textarea-focus-border-color: $_color-get !default;
+$form-textarea-background-color: var(--form-textarea-background-color) !default;
+$form-textarea-focus-border-color: var(--form-textarea-focus-border-color) !default;
 
-$form-textarea-curl-background-color: $mako-gray !default;
-$form-textarea-curl-font-color: $white !default;
+$form-textarea-curl-background-color: var(--form-textarea-curl-background-color) !default;
+$form-textarea-curl-font-color: var(--form-textarea-curl-font-color) !default;
 
-$form-checkbox-label-font-color: $gray-900 !default;
-$form-checkbox-background-color: $concrete-gray !default;
-$form-checkbox-box-shadow-color: $concrete-gray !default;
+$form-checkbox-label-font-color: var(--form-checkbox-label-font-color) !default;
+$form-checkbox-background-color: var(--form-checkbox-background-color) !default;
+$form-checkbox-box-shadow-color: var(--form-checkbox-box-shadow-color) !default;
 
 // Information
 
-$info-code-background-color: $black !default;
-$info-code-font-color: $_color-head !default;
+$info-code-background-color: var(--info-code-background-color) !default;
+$info-code-font-color: var(--info-code-font-color) !default;
 
-$info-link-font-color: $color-info !default;
-$info-link-font-color-hover: $info-link-font-color !default;
+$info-link-font-color: var(--info-link-font-color) !default;
+$info-link-font-color-hover: var(--info-link-font-color-hover) !default;
 
-$info-title-small-background-color: $waterloo-gray !default;
+$info-title-small-background-color: var(--info-title-small-background-color) !default;
 
-$info-title-small-pre-font-color: $white !default;
+$info-title-small-pre-font-color: var(--info-title-small-pre-font-color) !default;
 
 // Layout
 
-$opblock-border-color: $black !default;
-$opblock-box-shadow-color: $black !default;
+$opblock-border-color: var(--opblock-border-color) !default;
+$opblock-box-shadow-color: var(--opblock-box-shadow-color) !default;
 
-$opblock-tag-border-bottom-color: $bright-gray !default;
-$opblock-tag-background-color-hover: $black !default;
+$opblock-tag-border-bottom-color: var(--opblock-tag-border-bottom-color) !default;
+$opblock-tag-background-color-hover: var(--opblock-tag-background-color-hover) !default;
 
-$opblock-tab-header-tab-item-active-h4-span-after-background-color: $gray-400 !default;
+$opblock-tab-header-tab-item-active-h4-span-after-background-color: var(--opblock-tab-header-tab-item-active-h4-span-after-background-color) !default;
 
-$opblock-isopen-summary-border-bottom-color: $black !default;
+$opblock-isopen-summary-border-bottom-color: var(--opblock-isopen-summary-border-bottom-color) !default;
 
-$opblock-isopen-section-header-background-color: $white !default;
-$opblock-isopen-section-header-box-shadow-color: $black !default;
+$opblock-isopen-section-header-background-color: var(--opblock-isopen-section-header-background-color) !default;
+$opblock-isopen-section-header-box-shadow-color: var(--opblock-isopen-section-header-box-shadow-color) !default;
 
-$opblock-summary-method-background-color: $black !default;
-$opblock-summary-method-font-color: $white !default;
-$opblock-summary-method-text-shadow-color: $black !default;
+$opblock-summary-method-background-color: var(--opblock-summary-method-background-color) !default;
+$opblock-summary-method-font-color: var(--opblock-summary-method-font-color) !default;
+$opblock-summary-method-text-shadow-color: var(--opblock-summary-method-text-shadow-color) !default;
 
-$operational-filter-input-border-color: $geyser-blue !default;
+$operational-filter-input-border-color: var(--operational-filter-input-border-color) !default;
 
-$tab-list-item-first-background-color: $black !default;
+$tab-list-item-first-background-color: var(--tab-list-item-first-background-color) !default;
 
-$response-col-status-undocumented-font-color: $gray-300 !default;
+$response-col-status-undocumented-font-color: var(--response-col-status-undocumented-font-color) !default;
 
-$response-col-links-font-color: $gray-300 !default;
+$response-col-links-font-color: var(--response-col-links-font-color) !default;
 
-$opblock-body-background-color: $agate-gray !default;
-$opblock-body-font-color: $white !default;
+$opblock-body-background-color: var(--opblock-body-background-color) !default;
+$opblock-body-font-color: var(--opblock-body-font-color) !default;
 
-$scheme-container-background-color: $white !default;
-$scheme-container-box-shadow-color: $black !default;
+$scheme-container-background-color: var(--scheme-container-background-color) !default;
+$scheme-container-box-shadow-color: var(--scheme-container-box-shadow-color) !default;
 
-$server-container-background-color: $white !default;
-$server-container-box-shadow-color: $black !default;
+$server-container-background-color: var(--server-container-background-color) !default;
+$server-container-box-shadow-color: var(--server-container-box-shadow-color) !default;
 
-$server-container-computed-url-code-font-color: $gray-400 !default;
+$server-container-computed-url-code-font-color: var(--server-container-computed-url-code-font-color) !default;
 
-$loading-container-before-border-color: $gray-650 !default;
-$loading-container-before-border-top-color: $black !default;
+$loading-container-before-border-color: var(--loading-container-before-border-color) !default;
+$loading-container-before-border-top-color: var(--loading-container-before-border-top-color) !default;
 
-$response-content-type-controls-accept-header-select-border-color: $japanese-laurel !default;
-$response-content-type-controls-accept-header-small-font-color: $japanese-laurel !default;
+$response-content-type-controls-accept-header-select-border-color: var(--response-content-type-controls-accept-header-select-border-color) !default;
+$response-content-type-controls-accept-header-small-font-color: var(--response-content-type-controls-accept-header-small-font-color) !default;
 
 // Modal
 
-$dialog-ux-backdrop-background-color: $black !default;
+$dialog-ux-backdrop-background-color: var(--dialog-ux-backdrop-background-color) !default;
 
 
-$dialog-ux-modal-background-color: $white !default;
-$dialog-ux-modal-border-color: $gray-50 !default;
-$dialog-ux-modal-box-shadow-color: $black !default;
+$dialog-ux-modal-background-color: var(--dialog-ux-modal-background-color) !default;
+$dialog-ux-modal-border-color: var(--dialog-ux-modal-border-color) !default;
+$dialog-ux-modal-box-shadow-color: var(--dialog-ux-modal-box-shadow-color) !default;
 
-$dialog-ux-modal-content-font-color: $mako-gray !default;
+$dialog-ux-modal-content-font-color: var(--dialog-ux-modal-content-font-color) !default;
 
-$dialog-ux-modal-header-border-bottom-color: $gray-50 !default;
+$dialog-ux-modal-header-border-bottom-color: var(--dialog-ux-modal-header-border-bottom-color) !default;
 
 // Models
 
-$model-deprecated-font-color: $gray-200 !default;
+$model-deprecated-font-color: var(--model-deprecated-font-color) !default;
 
-$model-hint-font-color: $gray-50 !default;
-$model-hint-background-color: $black !default;
+$model-hint-font-color: var(--model-hint-font-color) !default;
+$model-hint-background-color: var(--model-hint-background-color) !default;
 
-$section-models-border-color: $bright-gray !default;
+$section-models-border-color: var(--section-models-border-color) !default;
 
-$section-models-isopen-h4-border-bottom-color: $section-models-border-color !default;
+$section-models-isopen-h4-border-bottom-color: var(--section-models-isopen-h4-border-bottom-color) !default;
 
-$section-models-h4-font-color: $gray-600 !default;
-$section-models-h4-background-color-hover: $black !default;
+$section-models-h4-font-color: var(--section-models-h4-font-color) !default;
+$section-models-h4-background-color-hover: var(--section-models-h4-background-color-hover) !default;
 
-$section-models-h5-font-color: $gray-500 !default;
+$section-models-h5-font-color: var(--section-models-h5-font-color) !default;
 
-$section-models-model-container-background-color: $black !default;
+$section-models-model-container-background-color: var(--section-models-model-container-background-color) !default;
 
-$section-models-model-box-background-color: $black !default;
+$section-models-model-box-background-color: var(--section-models-model-box-background-color) !default;
 
-$section-models-model-title-font-color: $gray-700 !default;
+$section-models-model-title-font-color: var(--section-models-model-title-font-color) !default;
 
-$prop-type-font-color: $scampi-purple !default;
+$prop-type-font-color: var(--prop-type-font-color) !default;
 
-$prop-format-font-color: $gray-600 !default;
+$prop-format-font-color: var(--prop-format-font-color) !default;
 
 // Tables
 
-$table-thead-td-border-bottom-color: $bright-gray !default;
+$table-thead-td-border-bottom-color: var(--table-thead-td-border-bottom-color) !default;
 
-$table-parameter-name-required-font-color: $color-danger !default;
+$table-parameter-name-required-font-color: var(--table-parameter-name-required-font-color) !default;
 
-$table-parameter-in-font-color: $gray-400 !default;
+$table-parameter-in-font-color: var(--table-parameter-in-font-color) !default;
 
-$table-parameter-deprecated-font-color: $color-danger !default;
+$table-parameter-deprecated-font-color: var(--table-parameter-deprecated-font-color) !default;
 
 // Topbar
 
-$topbar-background-color: $cod-gray !default;
+$topbar-background-color: var(--topbar-background-color) !default;
 
-$topbar-link-font-color: $white !default;
+$topbar-link-font-color: var(--topbar-link-font-color) !default;
 
-$topbar-download-url-wrapper-element-border-color: $apple-green !default;
+$topbar-download-url-wrapper-element-border-color: var(--topbar-download-url-wrapper-element-border-color) !default;
 
-$topbar-download-url-button-background-color: $apple-green !default;
-$topbar-download-url-button-font-color: $white !default;
+$topbar-download-url-button-background-color: var(--topbar-download-url-button-background-color) !default;
+$topbar-download-url-button-font-color: var(--topbar-download-url-button-font-color) !default;
 
 // Type
 
-$text-body-default-font-color: $bright-gray !default;
-$text-code-default-font-color: $bright-gray !default;
-$text-headline-default-font-color: $bright-gray !default;
+$text-body-default-font-color: var(--text-body-default-font-color) !default;
+$text-code-default-font-color: var(--text-code-default-font-color) !default;
+$text-headline-default-font-color: var(--text-headline-default-font-color) !default;

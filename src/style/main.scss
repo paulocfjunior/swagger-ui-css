@@ -1,8 +1,8 @@
 .swagger-ui
 {
+    @import 'variables';
     @import '~tachyons-sass/tachyons.scss';
     @import 'mixins';
-    @import 'variables';
     @import 'type';
     @import 'layout';
     @import 'buttons';

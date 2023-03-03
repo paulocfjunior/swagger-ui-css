@@ -13,6 +13,7 @@ export default {
 
   entry: {
     "swagger-ui": "./src/style/main.scss",
+    "css-root": "./src/style/css-root.scss",
   },
 
   module: {

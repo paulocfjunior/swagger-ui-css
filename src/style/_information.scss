@@ -40,11 +40,11 @@
 
         transition: all .4s;
 
-        @include text_body($info-link-font-color);
+        @include text_body(var(--info-link-font-color));
 
         &:hover
         {
-            color: darken($info-link-font-color-hover, 15%);
+            color: var(--info-link-font-color-hover);
         }
     }
     > div
