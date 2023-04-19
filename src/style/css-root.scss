@@ -5,7 +5,7 @@
   --color-warning: #ff6060;
   --color-danger: #f00;
 
-  --color-primary-hover: lighten(--color-primary, .5%);
+  --color-primary-hover: lighten(#89bf04, .5%);
 
   --color-post: #49cc90;
   --color-get: #61affe;
@@ -19,16 +19,16 @@
   // Base Colors
   --black: #000;
   --white: #fff;
-  --gray-50: lighten(#000, 92%); //#ebebeb
-  --gray-200: lighten(#000, 62.75%); // #a0a0a0
-  --gray-300: lighten(#000, 56.5%); // #909090
-  --gray-400: lighten(#000, 50%); // #808080
-  --gray-500: lighten(#000, 43.75%); // #707070
-  --gray-600: lighten(#000, 37.5%); // #606060
-  --gray-650: lighten(#000, 33.3%); // #555555
-  --gray-700: lighten(#000, 31.25%); // #505050
-  --gray-800: lighten(#000, 25%); // #404040
-  --gray-900: lighten(#000, 18.75%); // #303030
+  --gray-50: #ebebeb;
+  --gray-200: #a0a0a0;
+  --gray-300: #909090;
+  --gray-400: #808080;
+  --gray-500: #707070;
+  --gray-600: #606060;
+  --gray-650: #555555;
+  --gray-700: #505050;
+  --gray-800: #404040;
+  --gray-900: #303030;
 
   --cod-gray: #1b1b1b;
   --agate-gray: #333333;
